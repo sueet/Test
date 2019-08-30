@@ -1,4 +1,5 @@
 <?php
+//------------comment---------------------
 public function getTermConditionAudit()
 {
     $EntityID=$this->input->get('EntityID');
