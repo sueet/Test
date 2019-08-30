@@ -13,7 +13,7 @@ public function getTermConditionAudit()
     $query=$this->db->get();
     return $query->result();
 }
-    
+   //------------------- 
 public function getTermsConditionsTextById($TCID)
 {
     $content='';
@@ -63,7 +63,7 @@ public function getTermsConditionsTextPdfById($TCID,$FileIn)
         return $query->row();
     }
 }
-    
+ //hjgghg   
 public function getBotificationById($NID)
 {
     $this->db->select('udt_AUM_NotificationMaster.*,udt_UserMaster.ID,udt_UserMaster.FirstName,udt_UserMaster.LastName,CONVERT(VARCHAR(10),MessageDisplayFrom,105) as msgdf,CONVERT(VARCHAR(10),MessageDisplayTo,105) as msgdt, udt_UserMaster.EntityID, udt_EntityMaster.EntityName');
@@ -74,7 +74,7 @@ public function getBotificationById($NID)
     $query=$this->db->get();
     return $query->row();
 }
-    
+   //adsfd 
 public function getNotificationDetailsById()
 {
     $NID=$this->input->post('id');
