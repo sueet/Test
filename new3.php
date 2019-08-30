@@ -1,6 +1,5 @@
 <?php
-
-    
+   
 public function getTermConditionAudit()
 {
     $EntityID=$this->input->get('EntityID');
