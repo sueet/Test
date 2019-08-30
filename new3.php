@@ -74,7 +74,7 @@ public function getBotificationById($NID)
     $query=$this->db->get();
     return $query->row();
 }
-   //adsfd 
+   //adsfd---- 
 public function getNotificationDetailsById()
 {
     $NID=$this->input->post('id');
